@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface DANCurlRequest : NSObject
+@interface NSURLRequest (DANCurlRequest)
+
+- (NSString *)dan_curlRequest;
 
 @end
