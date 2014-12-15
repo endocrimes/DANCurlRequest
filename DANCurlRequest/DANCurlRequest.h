@@ -9,7 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface NSURLRequest (DANCurlRequest)
-
 - (NSString *)dan_curlRequest;
-
 @end

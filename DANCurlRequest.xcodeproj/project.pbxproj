@@ -10,6 +10,8 @@
 		6530C9471A3F28D100E1DB2E /* DANCurlRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6530C9461A3F28D100E1DB2E /* DANCurlRequest.h */; };
 		6530C9491A3F28D100E1DB2E /* DANCurlRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530C9481A3F28D100E1DB2E /* DANCurlRequest.m */; };
 		6530C94F1A3F28D100E1DB2E /* libDANCurlRequest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6530C9431A3F28D100E1DB2E /* libDANCurlRequest.a */; };
+		6530C95E1A3F294C00E1DB2E /* DANCurlRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530C95D1A3F294C00E1DB2E /* DANCurlRequestTests.m */; };
+		6530C95F1A3F2A5800E1DB2E /* DANCurlRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530C9481A3F28D100E1DB2E /* DANCurlRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,7 @@
 		6530C9481A3F28D100E1DB2E /* DANCurlRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DANCurlRequest.m; sourceTree = "<group>"; };
 		6530C94E1A3F28D100E1DB2E /* DANCurlRequestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DANCurlRequestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6530C9541A3F28D100E1DB2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6530C95D1A3F294C00E1DB2E /* DANCurlRequestTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DANCurlRequestTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				6530C9531A3F28D100E1DB2E /* Supporting Files */,
+				6530C95D1A3F294C00E1DB2E /* DANCurlRequestTests.m */,
 			);
 			path = DANCurlRequestTests;
 			sourceTree = "<group>";
@@ -201,6 +205,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6530C95E1A3F294C00E1DB2E /* DANCurlRequestTests.m in Sources */,
+				6530C95F1A3F2A5800E1DB2E /* DANCurlRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
