@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6530C9471A3F28D100E1DB2E /* DANCurlRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6530C9461A3F28D100E1DB2E /* DANCurlRequest.h */; };
+		6530C9491A3F28D100E1DB2E /* DANCurlRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530C9481A3F28D100E1DB2E /* DANCurlRequest.m */; };
+		6530C94F1A3F28D100E1DB2E /* libDANCurlRequest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6530C9431A3F28D100E1DB2E /* libDANCurlRequest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6530C9501A3F28D100E1DB2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6530C93B1A3F28D100E1DB2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6530C9421A3F28D100E1DB2E;
+			remoteInfo = DANCurlRequest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6530C9411A3F28D100E1DB2E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				6530C9471A3F28D100E1DB2E /* DANCurlRequest.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6530C9431A3F28D100E1DB2E /* libDANCurlRequest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDANCurlRequest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6530C9461A3F28D100E1DB2E /* DANCurlRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DANCurlRequest.h; sourceTree = "<group>"; };
+		6530C9481A3F28D100E1DB2E /* DANCurlRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DANCurlRequest.m; sourceTree = "<group>"; };
+		6530C94E1A3F28D100E1DB2E /* DANCurlRequestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DANCurlRequestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6530C9541A3F28D100E1DB2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6530C9401A3F28D100E1DB2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6530C94B1A3F28D100E1DB2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6530C94F1A3F28D100E1DB2E /* libDANCurlRequest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6530C93A1A3F28D100E1DB2E = {
+			isa = PBXGroup;
+			children = (
+				6530C9451A3F28D100E1DB2E /* DANCurlRequest */,
+				6530C9521A3F28D100E1DB2E /* DANCurlRequestTests */,
+				6530C9441A3F28D100E1DB2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6530C9441A3F28D100E1DB2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6530C9431A3F28D100E1DB2E /* libDANCurlRequest.a */,
+				6530C94E1A3F28D100E1DB2E /* DANCurlRequestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6530C9451A3F28D100E1DB2E /* DANCurlRequest */ = {
+			isa = PBXGroup;
+			children = (
+				6530C9461A3F28D100E1DB2E /* DANCurlRequest.h */,
+				6530C9481A3F28D100E1DB2E /* DANCurlRequest.m */,
+			);
+			path = DANCurlRequest;
+			sourceTree = "<group>";
+		};
+		6530C9521A3F28D100E1DB2E /* DANCurlRequestTests */ = {
+			isa = PBXGroup;
+			children = (
+				6530C9531A3F28D100E1DB2E /* Supporting Files */,
+			);
+			path = DANCurlRequestTests;
+			sourceTree = "<group>";
+		};
+		6530C9531A3F28D100E1DB2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6530C9541A3F28D100E1DB2E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6530C9421A3F28D100E1DB2E /* DANCurlRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6530C9571A3F28D100E1DB2E /* Build configuration list for PBXNativeTarget "DANCurlRequest" */;
+			buildPhases = (
+				6530C93F1A3F28D100E1DB2E /* Sources */,
+				6530C9401A3F28D100E1DB2E /* Frameworks */,
+				6530C9411A3F28D100E1DB2E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DANCurlRequest;
+			productName = DANCurlRequest;
+			productReference = 6530C9431A3F28D100E1DB2E /* libDANCurlRequest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6530C94D1A3F28D100E1DB2E /* DANCurlRequestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6530C95A1A3F28D100E1DB2E /* Build configuration list for PBXNativeTarget "DANCurlRequestTests" */;
+			buildPhases = (
+				6530C94A1A3F28D100E1DB2E /* Sources */,
+				6530C94B1A3F28D100E1DB2E /* Frameworks */,
+				6530C94C1A3F28D100E1DB2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6530C9511A3F28D100E1DB2E /* PBXTargetDependency */,
+			);
+			name = DANCurlRequestTests;
+			productName = DANCurlRequestTests;
+			productReference = 6530C94E1A3F28D100E1DB2E /* DANCurlRequestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6530C93B1A3F28D100E1DB2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Rocket Apps";
+				TargetAttributes = {
+					6530C9421A3F28D100E1DB2E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					6530C94D1A3F28D100E1DB2E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 6530C93E1A3F28D100E1DB2E /* Build configuration list for PBXProject "DANCurlRequest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6530C93A1A3F28D100E1DB2E;
+			productRefGroup = 6530C9441A3F28D100E1DB2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6530C9421A3F28D100E1DB2E /* DANCurlRequest */,
+				6530C94D1A3F28D100E1DB2E /* DANCurlRequestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6530C94C1A3F28D100E1DB2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6530C93F1A3F28D100E1DB2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6530C9491A3F28D100E1DB2E /* DANCurlRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6530C94A1A3F28D100E1DB2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6530C9511A3F28D100E1DB2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6530C9421A3F28D100E1DB2E /* DANCurlRequest */;
+			targetProxy = 6530C9501A3F28D100E1DB2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6530C9551A3F28D100E1DB2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6530C9561A3F28D100E1DB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6530C9581A3F28D100E1DB2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6530C9591A3F28D100E1DB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6530C95B1A3F28D100E1DB2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DANCurlRequestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6530C95C1A3F28D100E1DB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DANCurlRequestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6530C93E1A3F28D100E1DB2E /* Build configuration list for PBXProject "DANCurlRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6530C9551A3F28D100E1DB2E /* Debug */,
+				6530C9561A3F28D100E1DB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6530C9571A3F28D100E1DB2E /* Build configuration list for PBXNativeTarget "DANCurlRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6530C9581A3F28D100E1DB2E /* Debug */,
+				6530C9591A3F28D100E1DB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6530C95A1A3F28D100E1DB2E /* Build configuration list for PBXNativeTarget "DANCurlRequestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6530C95B1A3F28D100E1DB2E /* Debug */,
+				6530C95C1A3F28D100E1DB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6530C93B1A3F28D100E1DB2E /* Project object */;
+}
