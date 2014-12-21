@@ -1,0 +1,5 @@
+language: objective-c
+before_install:
+  - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+script:
+  - xcodebuild -project DANCurlRequest.xcodeproj -scheme DANCurlRequest test | xcpretty -c
