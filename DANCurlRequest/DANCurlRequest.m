@@ -18,9 +18,7 @@ static NSString *DANCurlRequestHeaderFormat = @" -H \"%@: %@\"";
 static NSString *DANCurlRequestBodyFormat = @" -d \"%@\"";
 static NSString *DANCurlRequestURLFormat = @" \"%@\"";
 
-- (NSString *)dan_escapeQuotesInString:(NSString *)string {
-  return [string stringByReplacingOccurrencesOfString:@"\"" withString:@"\\\""];
-}
+#pragma mark - Public Interface
 
 - (NSString *)dan_curlRequest {
   NSMutableString *curlString = [NSMutableString stringWithFormat:@"curl %@ %@ %@ %@ -",
@@ -49,5 +47,12 @@ static NSString *DANCurlRequestURLFormat = @" \"%@\"";
 
   return curlString;
 }
+
+#pragma mark - Private Implementation
+
+- (NSString *)dan_escapeQuotesInString:(NSString *)string {
+    return [string stringByReplacingOccurrencesOfString:@"\"" withString:@"\\\""];
+}
+
 
 @end

@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
     s.name                  = "DANCurlRequest"
-    s.version               = "1.0.1"
+    s.version               = "1.0.2"
     s.summary               = "Easily log NSURLRequest's as curl commands"
-    s.homepage              = "https://github.com/DanielTomlinson/#{s.name}"
+    s.homepage              = "https://github.com/DanToml/#{s.name}"
     s.license               = { :type => "MIT", :file => "LICENSE" }
     s.author                = { "Daniel Tomlinson" => "dan@tomlinson.io" }
     s.social_media_url      = "https://twitter.com/DanToml"
