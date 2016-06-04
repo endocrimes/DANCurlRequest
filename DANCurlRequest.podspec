@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name                  = "DANCurlRequest"
-    s.version               = "1.0.1"
+    s.version               = "1.0.2"
     s.summary               = "Easily log NSURLRequest's as curl commands"
     s.homepage              = "https://github.com/endocrimes/#{s.name}"
     s.license               = { :type => "MIT", :file => "LICENSE" }

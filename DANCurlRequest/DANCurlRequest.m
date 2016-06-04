@@ -2,7 +2,7 @@
 //  DANCurlRequest.m
 //  DANCurlRequest
 //
-//  Created by  Danielle Lancashireon 15/12/2014.
+//  Created by Danielle Lancashire on 15/12/2014.
 //  Copyright (c) 2014 Rocket Apps. All rights reserved.
 //
 
@@ -18,9 +18,7 @@ static NSString *DANCurlRequestHeaderFormat = @" -H \"%@: %@\"";
 static NSString *DANCurlRequestBodyFormat = @" -d \"%@\"";
 static NSString *DANCurlRequestURLFormat = @" \"%@\"";
 
-- (NSString *)dan_escapeQuotesInString:(NSString *)string {
-  return [string stringByReplacingOccurrencesOfString:@"\"" withString:@"\\\""];
-}
+#pragma mark - Public Interface
 
 - (NSString *)dan_curlRequest {
   NSMutableString *curlString = [NSMutableString stringWithFormat:@"curl %@ %@ %@ %@ -",
@@ -49,5 +47,12 @@ static NSString *DANCurlRequestURLFormat = @" \"%@\"";
 
   return curlString;
 }
+
+#pragma mark - Private Implementation
+
+- (NSString *)dan_escapeQuotesInString:(NSString *)string {
+    return [string stringByReplacingOccurrencesOfString:@"\"" withString:@"\\\""];
+}
+
 
 @end
